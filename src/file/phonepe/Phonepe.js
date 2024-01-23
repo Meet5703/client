@@ -19,7 +19,7 @@ const Phonepe = () => {
     setLoading2(true);
 
     axios
-      .post("http://localhost:3001/pay", { ...data })
+      .post("https://bktest.onrender.com/pay", { ...data })
       .then((res) => {
         setTimeout(() => {
           setLoading2(false);
